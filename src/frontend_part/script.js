@@ -1,9 +1,9 @@
-const button = document.querySelector('#button'),
-    name = document.querySelector('.authorName'),
-    password = document.querySelector('.authorPassword')
+const button = document.querySelector('#button-register'),
+    name = document.querySelector('.registerName'),
+    password = document.querySelector('.registerPassword')
 
 
 
 button.addEventListener('click', () => {
-    alert('Приветсвую, ' + name.value)
+    alert('Приветствую, ' + name.value)
 });
